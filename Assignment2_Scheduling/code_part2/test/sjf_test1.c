@@ -1,0 +1,9 @@
+#include "syscall.h"
+main()
+	{
+		int	i, j;
+		for (i=0;i<5;i++) {
+			for (j=0;j<3;j++) PrintInt(100+i*10+j);
+            Sleep(1);
+        }
+	}
